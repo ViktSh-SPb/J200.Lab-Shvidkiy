@@ -1,16 +1,12 @@
 package com.example.j200_labshvidkiy.repositories;
 
-import com.example.j200_labshvidkiy.Dto.ClientDto;
-import com.example.j200_labshvidkiy.entities.AddressEntity;
 import com.example.j200_labshvidkiy.entities.ClientEntity;
 import jakarta.ejb.Singleton;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import java.sql.*;
+
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 @Singleton
 public class ClientRepository {
