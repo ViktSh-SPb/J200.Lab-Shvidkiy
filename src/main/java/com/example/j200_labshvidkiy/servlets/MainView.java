@@ -1,10 +1,7 @@
 package com.example.j200_labshvidkiy.servlets;
 
-import com.example.j200_labshvidkiy.Dto.AddressDto;
-import com.example.j200_labshvidkiy.Dto.ClientDto;
 import com.example.j200_labshvidkiy.entities.AddressEntity;
 import com.example.j200_labshvidkiy.entities.ClientEntity;
-import com.example.j200_labshvidkiy.repositories.AddressRepository;
 import com.example.j200_labshvidkiy.repositories.ClientRepository;
 import com.example.j200_labshvidkiy.services.ClientService;
 import jakarta.ejb.EJB;
@@ -18,7 +15,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 import java.util.Objects;
-import java.util.Set;
 import java.util.function.Predicate;
 
 @WebServlet(name = "main_view", value = "/main_view")

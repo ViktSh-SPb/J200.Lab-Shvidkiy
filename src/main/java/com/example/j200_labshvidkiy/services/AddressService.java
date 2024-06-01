@@ -1,6 +1,6 @@
 package com.example.j200_labshvidkiy.services;
 
-import com.example.j200_labshvidkiy.Dto.AddressDto;
+import com.example.j200_labshvidkiy.dto.AddressDto;
 import com.example.j200_labshvidkiy.entities.AddressEntity;
 import com.example.j200_labshvidkiy.entities.ClientEntity;
 import com.example.j200_labshvidkiy.repositories.AddressRepository;
@@ -8,7 +8,6 @@ import com.example.j200_labshvidkiy.repositories.ClientRepository;
 import jakarta.ejb.EJB;
 import jakarta.ejb.Singleton;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collection;
 

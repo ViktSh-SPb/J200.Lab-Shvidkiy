@@ -1,8 +1,8 @@
 package com.example.j200_labshvidkiy.servlets;
 import java.io.*;
 import java.util.Collection;
-import com.example.j200_labshvidkiy.Dto.AddressDto;
-import com.example.j200_labshvidkiy.Dto.ClientDto;
+import com.example.j200_labshvidkiy.dto.AddressDto;
+import com.example.j200_labshvidkiy.dto.ClientDto;
 import com.example.j200_labshvidkiy.services.AddressService;
 import com.example.j200_labshvidkiy.services.ClientService;
 import jakarta.ejb.EJB;

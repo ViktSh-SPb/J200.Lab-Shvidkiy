@@ -1,4 +1,4 @@
-package com.example.j200_labshvidkiy.Dto;
+package com.example.j200_labshvidkiy.dto;
 import lombok.Builder;
 import lombok.Data;
 @Data
