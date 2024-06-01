@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table>
+    <tr>
+        <td><a href="create" class="btn">Создать клиента</a></td>
+        <td>
+            <table class="search_form">
+                <form id="search">
+                <tr>
+                    <td>Имя клиента: <input type="text" name="client_name"></td>
+                    <td>Тип клиента: <select name="client_type">
+                        <option selected value=""></option>
+                        <option value="физическое лицо">физическое лицо</option>
+                        <option value="юридическое лицо">юридическое лицо</option>
+                    </select></td>
+                    <td>IP-адрес: <input class="ip" type="text" name="ip_address"></td>
+                    <td><a href="create" class="btn">Найти</a></td>
+                    <td><input type="text" class="btn"></td>
+                </tr>
+                </form>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

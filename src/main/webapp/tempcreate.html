@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Клиенты</title>
+</head>
+<body>
+<form id="create_form" action="create_servlet" method="get">
+<table>
+    <tr>
+        <td>
+            <table id="unit1">
+                <tr>
+                    <td id="keyname1">Имя:</td>
+                    <td id="valuename1"><input name="client_name" type="text" size="50"></td>
+                </tr>
+                <tr>
+                    <td id="keytype1">Тип клиента:</td>
+                    <td id="valuetype1">
+                        <select name="client_type">
+                            <option>физическое лицо</option>
+                            <option>юридическое лицо</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="keydate1">Дата добавления:</td>
+                    <td id="valuedate1"><input name="added" type="date"></td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table id="create_address">
+                <tr>
+                    <td>
+                        <table id="create_subaddress">
+                            <tr>
+                                <th id="addrip1">IP-адрес</th>
+                                <th id="addrmac1">MAC-адрес</th>
+                                <th id="addrmodel1">Модель устройства</th>
+                                <th id="addraddr1">Адрес</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td><input name="ip" size="30"></td>
+                                <td><input name="mac" size="40"></td>
+                                <td><input name="model" size="40"></td>
+                                <td><input name="address" size="70"></td>
+                                <td><img src="elements/minus.png"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" align="center"><hr><a href="create_servlet?addr_rows="><img src="elements/add.png"></a><img src="elements/add.png"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><h1 class="warning_header">Удалить клиента?</h1></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <input type="submit" value="Удалить запись">
+            <a href="main_view" class="btn">Отмена</a>
+        </td>
+    </tr>
+</table></form>
+</body>
+</html>
